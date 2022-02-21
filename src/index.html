@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Currency Exchange</title>
+</head>
+<body>
+  <div class="container">
+    <form id="currency-form">
+      <h1>Enter a conversion</h1>
+      
+      <div class="row">
+        <div class="col-3"></div>
+
+        <div class="col-3">
+          <label for="from">Convert From:</label>
+          <input id="from" type="text" placeholder="USD" maxlength="3" required>
+        </div>
+
+        <div class="col-3">
+          <label for="to">Convert To:</label>
+          <input id="to" type="text" placeholder="EUR" maxlength="3" required>
+        </div>
+        
+        <div class="col-3"></div>
+      </div>
+
+      <div id="box">
+        <label for="amount">How many?</label>
+        <input id="amount" type="number" placeholder="1">
+      </div>
+
+      <button class="btn-success" id="convert">Search</button>
+    </form>
+    <div id="result"></div>
+  </div>
+</body>
+</html>

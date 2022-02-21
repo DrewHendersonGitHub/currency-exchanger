@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(214, 203, 185, 0.548)
+}
+
+h1 {
+  padding-top: 2em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#box {
+  width: 22em;
+  margin: auto;
+  margin-top: 5em;
+}
+
+button {
+  
+  margin-top: 2em;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.col-3 {
+  text-align: center;
+}
+
+#result {
+  margin-top: 5em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.container {
+  background-color:rgba(87, 61, 27, 0.116);
+  opacity: 0.9;
+}
+
+.red {
+  color: red;
+}
